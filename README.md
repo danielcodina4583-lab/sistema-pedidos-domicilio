@@ -10,7 +10,7 @@ Este Sistema Permite gestionar el ciclo completo de un pedido: desde la solicitu
 Integrates del equipo de trabajo:
 | Nombre                             | Rol                              |
 | :--------------------------------- | :------------------------------- |
-| **Daniel Codina**                  | Desarrollo principal             |
+| **Daniel De Jesus Codina Ortiz**   | Desarrollo principal|
 | **Isaac Gómez Montero**            | Lógica del sistema               |
 | **Yeisson Stiven Marriaga Rojano** | Estructuras y archivos de clases |
 | **Diego Alejandro Holguín**        | Organización y documentación     |
