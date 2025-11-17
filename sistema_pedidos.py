@@ -32,7 +32,7 @@ class SistemaPedidos:
         for barrio in barrios_santa_marta:
             self.mapa.agregar_zona(barrio)
 
-        # Conexiones reales entre barrios de Santa Marta (distancias aproximadas en km)
+      
         conexiones = [
             ("Centro Historico", "Rodadero", 5),
             ("Centro Historico", "Bello Horizonte", 3),
