@@ -33,7 +33,7 @@ def buscar_producto_en_restaurantes(sistema, nombre_producto):
                 producto_linea = linea[1:].split(':', 1)[0].strip()
                
                 if producto_linea.lower() == nombre_producto.lower():
-                    return producto_linea  # Devuelve el nombre exacto del producto
+                    return producto_linea  
     return None
 
 def main():
@@ -118,16 +118,16 @@ def main():
                 
                 if producto_encontrado:
                     productos_pedido.append(producto_encontrado)
-                    print(f"✅ Producto '{producto_encontrado}' agregado al pedido")
+                    print(f" Producto '{producto_encontrado}' agregado al pedido")
                 else:
-                    print("❌ Producto no encontrado en ningún restaurante")
-                    print("💡 Sugerencia: Verifique el nombre o use la opción 10 para ver los menús disponibles")
+                    print("Producto no encontrado en ningún restaurante")
+                    print(" Sugerencia: Verifique el nombre o use la opción 10 para ver los menús disponibles")
             
             if not productos_pedido:
                 print("No se agregaron productos al pedido")
                 continue
             
-            # Crear pedido con los productos seleccionados
+            
             print(f"\nCreando pedido con productos: {productos_pedido}")
             print(sistema.crear_pedido(codigo_cliente, productos_pedido))
 

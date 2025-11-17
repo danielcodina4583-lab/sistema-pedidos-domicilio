@@ -79,7 +79,7 @@ class Grafo:
         return zona_cercana
 
     def mostrar_mapa(self):
-        print("\n牛 MAPA DE SANTA MARTA:")
+        print("\n MAPA DE LA Ciudad DE SANTA MARTA:")
         for zona, vecinos in self.zonas.items():
             conexiones = []
             for vecino in vecinos:
