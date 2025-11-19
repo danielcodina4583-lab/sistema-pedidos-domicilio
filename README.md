@@ -10,7 +10,7 @@ Sistema de gestión de domicilios desarrollado a partir de la implementación ma
 
 | Nombre                             | Rol                              |
 | :--------------------------------- | :------------------------------- |
-| **Daniel De Jesus Codina Ortiz**   | Desarrollo principal             |
+| **Daniel De Jesus Codina Ortiz**   | Parte del desarrollo             |
 | **Isaac Gómez Montero**            | Lógica del sistema               |
 | **Yeisson Stiven Marriaga Rojano** | Estructuras y archivos de clases |
 | **Diego Alejandro Holguín**        | Organización y documentación     |
